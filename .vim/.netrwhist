@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/clement/.ssh'
+let g:netrw_dirhist_2='/Users/clement/Dropbox/CLAP/EVA/www/eva/.git'
+let g:netrw_dirhist_3='/Users/clement/.vim'
+let g:netrw_dirhist_4='/Users/clement/work/github/xrocks/torch'
+let g:netrw_dirhist_5='/Users/clement/work/github/xrocks'
+let g:netrw_dirhist_6='/Users/clement/work/github/xrocks/torch/exe/torch-exe'
+let g:netrw_dirhist_7='/Users/clement/work/github/xrocks/torch/exe'
+let g:netrw_dirhist_8='/Users/clement/work/github/xrocks/torch/exe/torch-pkg'
