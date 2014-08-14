@@ -14,7 +14,7 @@ set autoread
 set hidden
 
 " Use the already open buffer if it exists
-set switchbuf=useopen,usetab 
+set switchbuf=useopen,usetab
 
 " Filetype detection
 autocmd BufNewFile, BufRead *.as set filetype=actionscript
@@ -70,8 +70,11 @@ set laststatus=2
 " Keep some space between the current line and the window frame
 set scrolloff=4
 
-" 4 spaces, expand tab
-set sw=4 sts=4 ts=4 expandtab
+" Softtabs, 2 spaces
+set tabstop=8
+set shiftwidth=2
+set expandtab
+set cindent
 
 " Enable folding with the spacebar
 nnoremap <space> za
@@ -204,3 +207,19 @@ let g:Powerline_symbols = 'fancy'
 hi clear CursorLine
 hi CursorLine cterm=underline
 
+" tab navigation like firefox
+nnoremap <C-t> :tabnew<cr>
+nnoremap { gT
+nnoremap } gt
+
+" paste mode?
+set pastetoggle=<F2>
+
+" autochdir
+set autochdir
+
+" white spaces
+set list listchars=tab:»·,trail:·
+
+" automatically strip whitespace off the end of lines on save
+autocmd BufWritePre * :%s/\s\+$//e

@@ -1,4 +1,4 @@
 
-" 1 tab == 4 spaces
-setlocal shiftwidth=3
-setlocal tabstop=3
+" 1 tab == 3 spaces
+setlocal sw=3 sts=3 et
+
